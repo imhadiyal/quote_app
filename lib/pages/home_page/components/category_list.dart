@@ -27,14 +27,14 @@ Widget categoryList({required setState}) {
                         ? Colors.primaries[allCategories.indexOf(e)]
                         : Colors.white,
                     border: Border.all(color: Colors.black),
-                    borderRadius: BorderRadius.all(
+                    borderRadius: const BorderRadius.all(
                       Radius.circular(15),
                     ),
                     boxShadow: [
                       BoxShadow(
                           offset: Global.selectedCategory == e
-                              ? Offset(-5, -5)
-                              : Offset(-0, -0),
+                              ? const Offset(-5, -5)
+                              : const Offset(-0, -0),
                           color: Colors.grey)
                     ]),
                 child: Text(
@@ -42,7 +42,8 @@ Widget categoryList({required setState}) {
                     e[0],
                     e[0].toUpperCase(),
                   ),
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  style: const TextStyle(
+                      fontSize: 17, fontWeight: FontWeight.bold),
                 ),
               ),
             ),

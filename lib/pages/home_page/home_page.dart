@@ -65,14 +65,6 @@ class _HomePageState extends State<HomePage> {
           _isList ? quotesListView() : quotesGridView(context: context),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.pushNamed(
-            context,
-            AppRoutes.detailPage,
-          );
-        },
-      ),
     );
   }
 }

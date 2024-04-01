@@ -29,7 +29,9 @@ class _DetailPageState extends State<DetailPage> {
     ui.Image image = await boundary.toImage(
       pixelRatio: 15,
     );
-    ByteData? data = await image.toByteData();
+    ByteData? data = await image.toByteData(
+      format: ui.ImageByteFormat.png,
+    );
     Uint8List list = data!.buffer.asUint8List();
 
     Directory directory = await getTemporaryDirectory();
@@ -253,7 +255,7 @@ class _DetailPageState extends State<DetailPage> {
                             .toList(),
                       ),
                       //TextAlign
-                      Text("TextAlign"),
+                      const Text("TextAlign"),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
