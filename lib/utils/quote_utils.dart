@@ -364,3 +364,4 @@ List<String> allCategories = allQuotes
     )
     .toSet()
     .toList();
+List<Quote> selectedCategoryQuote = [];

@@ -60,9 +60,9 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: [
           //Categories
-          categoryList(),
+          categoryList(setState: setState),
           //Quotes
-          _isList ? quotesListView() : quotesGridView(),
+          _isList ? quotesListView() : quotesGridView(context: context),
         ],
       ),
       floatingActionButton: FloatingActionButton(
