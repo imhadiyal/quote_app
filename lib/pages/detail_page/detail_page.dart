@@ -1,10 +1,7 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
 import 'package:quote_app/headers.dart';
+
 import 'dart:ui' as ui;
+import 'package:flutter/cupertino.dart';
 
 class DetailPage extends StatefulWidget {
   const DetailPage({super.key});

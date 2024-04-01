@@ -1,5 +1,4 @@
 import 'package:quote_app/headers.dart';
-import 'package:quote_app/utils/Global.dart';
 
 Widget categoryList({required setState}) {
   return Expanded(
