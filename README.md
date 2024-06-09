@@ -7,7 +7,9 @@
 <img src = "https://github.com/imhadiyal/quote_app/assets/146731392/777003f4-2a85-4000-bbf5-d9a5c7c8e9f3" width = "200">
 <img src = "https://github.com/imhadiyal/quote_app/assets/146731392/551b0b40-ac0c-4abc-996e-ad1f48a821b2" width = "200">
 <img src = "https://github.com/imhadiyal/quote_app/assets/146731392/a0989de0-eb69-4135-b0b8-4e646d8036f2" width = "200">
+<img src = "https://github.com/imhadiyal/quote_app/assets/146731392/cec2bb31-a5dc-43bc-98b9-87b3c5d9e597" width = "200">
 <img src = "https://github.com/imhadiyal/quote_app/assets/146731392/ab6a5130-2b43-486d-90df-edcac889a788" width = "200">
+
 
 
 
